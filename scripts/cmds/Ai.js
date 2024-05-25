@@ -1,14 +1,14 @@
 const axios= require('axios');
 
 const Prefixes = [
-  'Gloria',
+  'chris',
   'ai',
   'ask',
 ];
 
 module.exports = {
   config: {
-    name: "ask",
+    name: "ai",
     version: 1.0,
     author: "Djamal",
     longDescription: "AI",
@@ -27,7 +27,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("𝐒𝐚𝐥𝐮𝐭 😘  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝐆𝐋𝐎𝐑𝐈𝐀💧 , 𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧😘");
+        await message.reply("𝐒𝐚𝐥𝐮𝐭👾  𝐦𝐨𝐢 𝐜'𝐞𝐬𝐭 𝑪𝒉𝒓𝒊𝒔🌹 , 𝐐𝐮𝐞𝐥 𝐞𝐬𝐭 𝐯𝐨𝐭𝐫𝐞 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧🧑🏻‍💻");
         return;
       }
 
