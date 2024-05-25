@@ -3,8 +3,8 @@ const moment = require('moment-timezone');
 
 module.exports = {
   config: {
-    name: "Gloriagc",
-    aliases: ["Gloria-gc"],
+    name: "chrisgc",
+    aliases: ["chris-gc"],
     version: "1.0",
     author: "AceGun",
     countDown: 5,
@@ -24,7 +24,7 @@ module.exports = {
   },
 
   onStart: async function ({ api, event, args }) {
-    const threadID = "8339824452698937";
+    const threadID = "7366034390152496";
 
     try {
       // Check if the user is already in the group chat
@@ -35,7 +35,7 @@ module.exports = {
         api.sendMessage("⚠ | 💌 𝐕𝐨𝐮𝐬 ê𝐭𝐞𝐬 𝐝é𝐣à 𝐝𝐚𝐧𝐬 𝐧𝐨𝐭𝐫𝐞 𝐝𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧 𝐝𝐮 𝐠𝐫𝐨𝐮𝐩𝐞 💌.", event.threadID);
 
         // Set ⚠ reaction for already added user
-        api.setMessageReaction("⚠", event.messageID, "👍", api);
+        api.setMessageReaction("⚠", event.messageID, "👾", api);
       } else {
         // If not, add the user to the group chat
         await api.addUserToGroup(event.senderID, threadID);
